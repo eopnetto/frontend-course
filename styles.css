@@ -10,6 +10,31 @@ body {
     margin: 0;
 }
 
+label {
+    font-size: 35px;
+    font-weight: 600;
+}
+
+p {
+    font-size: 28px;
+    line-height: 1.2;
+}
+
+button {
+    font-size: 32px;
+    font-weight: 700;
+    color: #FFFFFF;
+    background-color: #0069ff;
+    padding: 15px 60px;
+    display: block;
+    text-align: center;
+    margin: 5px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    border-radius: 7px;
+
+}
+
 .container {
     width: 100%;
     margin: auto;
@@ -78,6 +103,12 @@ body {
     width: 100%;
 }
 
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
 /*endregion*/
 
 /*region Navbar*/
@@ -128,6 +159,26 @@ ul.topnav li.dropdown-icon {
     background: linear-gradient(#076DFF, #65A5FF);
 }
 
+div.box {
+    text-align: center;
+    margin: 24px;
+    padding: 36px 24px 40px 24px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    border-radius: 7px;
+    background-color: #FFFFFF;
+    -webkit-box-shadow: 0 0 0 1px rgba(0, 0, 0, .15),
+    0 2px, 3px 0 rgba(0, 0, 0, .1);
+    -moz-box-shadow: 0 0 0 1px rgba(0, 0, 0, .15),
+    0 2px, 3px 0 rgba(0, 0, 0, .1);
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, .15),
+    0 2px, 3px 0 rgba(0, 0, 0, .1);
+}
+
+div.icon {
+    width: 100%;
+}
+
 div.left-side-col {
     margin-left: 30%;
 }
@@ -143,6 +194,11 @@ h1.large {
     line-height: 70px;
 }
 
+h1.section-2-header {
+    font-size: 65px;
+    text-align: center;
+}
+
 input[type="text"] {
     font-size: 20px;
     width: 400px;
@@ -155,6 +211,11 @@ input[type="text"] {
 
 form h2 {
     color: #FFFFFF;
+}
+
+button.learn-more {
+    display: block;
+    margin: auto;
 }
 
 /*endregion*/
@@ -192,9 +253,14 @@ form h2 {
     }
 
     /*endregion*/
-    .col-6 {
+    .col-6,
+    .col-4 {
         width: 100%;
         margin: 0;
+    }
+
+    div.box {
+        padding: 5px;
     }
 
     div.left-side-col,
@@ -211,6 +277,10 @@ form h2 {
         width: 100%;
         margin: 0;
         overflow: hidden;
+    }
+
+    h1.section-2-header {
+        font-size: 50px;
     }
 }
 
