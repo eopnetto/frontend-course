@@ -48,7 +48,7 @@
       <find>section-2-header</find>
       <find>p</find>
       <find>font</find>
-      <find>font-size: 20px;</find>
+      <find />
       <find>font-size</find>
       <find>footer</find>
     </findStrings>
